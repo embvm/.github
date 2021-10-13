@@ -16,16 +16,16 @@ We carefully selected these goals because we were continually tired of repeatedl
 
 [embvm-core](https://github.com/embvm/embvm-core) is the primary Embedded VM repository. This repo provides the core abstractions, boot-related code, utilities, and supporting libraries that are used to build Embedded VM applications. These abstractions are used to quickly create and port embedded systems software from one platform to another. It is the minimal dependency needed for a new Embedded VM project.
 
-### Demonstration Projects
+## Demonstration Projects
 
 We provide a number of demonstration projects.
 
-#### Applications
+### Applications
 
 - [embvm/blinky](https://github.com/embvm/blinky) contains the application layer code for a simple `blinky` example. This project runs on a personal computer using an Aardvark adapter hooked up to an LED, an nRF52840 development kit, an nRF USB Dongle, and an STM32 NUCLEO-L4R5ZI development board.
 - [embvm-demo](https://github.com/embvm/embvm-demo) contains a more complicated example application involving LEDs, a time-of-flight sensor, and an OLED display. This application runs on a personal computer using an Aardvark adapter, an nRF52840 development kit, and an STM32L4R5ZI-P Nucleo development kit.
 
-#### Hardware Platforms
+### Hardware Platforms
 
 - [embvm-demo-platforms](https://github.com/embvm/embvm-demo-platforms) contains example platforms and hardware platforms that are shared by our [blinky](https://github.com/embvm/blinky) and [embvm-demo](https://github.com/embvm/embvm-demo) projects
 - [stm32l4](https://github.com/embvm/stm32l4) provides an example hardware platform, platform, and blinky application that will run on an STM32 NUCLEO-L4R5ZI development kit.
