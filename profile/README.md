@@ -16,6 +16,10 @@ We carefully selected these goals because we were continually tired of repeatedl
 
 [embvm-core](https://github.com/embvm/embvm-core) is the primary Embedded VM repository. This repo provides the core abstractions, boot-related code, utilities, and supporting libraries that are used to build Embedded VM applications. These abstractions are used to quickly create and port embedded systems software from one platform to another. It is the minimal dependency needed for a new Embedded VM project.
 
+## Reference Projects
+
+- [c-interfaces](https://github.com/embvm/c-interfaces) - a collection of abstract interfaces in C
+
 ## Demonstration Projects
 
 We provide a number of demonstration projects.
@@ -30,7 +34,7 @@ We provide a number of demonstration projects.
 - [embvm-demo-platforms](https://github.com/embvm/embvm-demo-platforms) contains example platforms and hardware platforms that are shared by our [blinky](https://github.com/embvm/blinky) and [embvm-demo](https://github.com/embvm/embvm-demo) projects
 - [stm32l4](https://github.com/embvm/stm32l4) provides an example hardware platform, platform, and blinky application that will run on an STM32 NUCLEO-L4R5ZI development kit.
 
-## Procesor Support
+## Processor Support
 
 We have modules that provide minimal support for the following processors:
 
@@ -40,12 +44,12 @@ We have modules that provide minimal support for the following processors:
 
 ## OS Support
 
-- POSIX support is provided as part o [embvm-core](https://github.com/embvm/embvm-core)
+- POSIX support is provided as part of [embvm-core](https://github.com/embvm/embvm-core)
 - [freertos-interface](https://github.com/embvm/freertos-interface)
 
 ## Related Efforts
 
-- Drivers that are designed to support this ecosystem can be found in the [`embvm-drivers`](https://github.com/embvm-drivers) organization
+- Drivers that are designed to support this ecosystem can be found in the [embvm-drivers](https://github.com/embvm-drivers) organization
 - The Embedded VM project makes use of repositories that can be found in the [embeddedartistry](https://github.com/embeddedartistry) organization:
   - [libc](https://github.com/embeddedartistry/libc)
   - [libmemory](https://github.com/embeddedartistry/libmemory)
