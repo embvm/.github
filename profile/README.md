@@ -12,6 +12,12 @@ The ultimate goals of the Embedded Virtual Machine project are:
 
 We carefully selected these goals because we were continually tired of repeatedly facing [the same challenges the past twelve years](https://embeddedartistry.com/blog/2018/08/06/musings-on-tight-coupling-between-firmware-and-hardware/). We're tired of being stuck in the software development dark ages. We want to do our part to improve the state of the art in embedded systems software development, enabling users like you to more quickly develop reliable embedded systems software.
 
+## Status
+
+This project is still in its infancy and quite experimental.
+
+What is currently represented is our initial approach. While working on our [Designing Embedded Software for Change](https://embeddedartistry.com/course/designing-embedded-systems-for-change/) and [Abstractions and Interfaces](https://embeddedartistry.com/course/abstractions-and-interfaces/) courses, we realized that we could simplify some of the central ideas by changing our approach to abstraction. This work will begin once version of Designing Embedded Software for Change is completed.
+
 ## Core Project
 
 [embvm-core](https://github.com/embvm/embvm-core) is the primary Embedded VM repository. This repo provides the core abstractions, boot-related code, utilities, and supporting libraries that are used to build Embedded VM applications. These abstractions are used to quickly create and port embedded systems software from one platform to another. It is the minimal dependency needed for a new Embedded VM project.
